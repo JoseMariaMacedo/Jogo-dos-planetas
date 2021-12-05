@@ -7,12 +7,16 @@
 body {
     width: 100vw;
     display: flex;
-    background:rgb(78, 75, 75)url(img-planetas/universo.jpg) no-repeat right top fixed ;
-    background-size: cover ;
+    background:rgb(78, 75, 75)url(img-planetas/universo.jpg) no-repeat right top fixed;
+    background-size: cover;
+    justify-content: center;
+    align-content: flex-start;
+    flex-direction: row;
+    align-items: baseline;
 }
 
 .jogo-dos-planetas {
-    height: 730px;
+    height: 720px;
     width: 800px;
     margin: auto auto auto auto;
     display: flex;
