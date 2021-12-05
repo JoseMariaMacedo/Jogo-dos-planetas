@@ -11,15 +11,10 @@ body {
     background-size: cover ;
 }
 
-.titulo{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: white;
-}
-
 .jogo-dos-planetas {
-    height: 640px;
-    width: 640px;
-    margin: auto;
+    height: 730px;
+    width: 800px;
+    margin: auto auto auto auto;
     display: flex;
     flex-wrap: wrap;
     perspective: 1000px;
